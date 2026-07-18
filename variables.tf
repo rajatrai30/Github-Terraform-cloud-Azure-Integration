@@ -1,9 +1,9 @@
-variable "rg_name" {
+variable "resource_group_name" {
   description = "resoruce group name"
   type        = string
 }
 
-variable "rg_location" {
+variable "location" {
   description = "resoruce group location"
   type        = string
 }
