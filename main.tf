@@ -1,6 +1,10 @@
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
   location = var.location
+  tags = {
+    "Environment" = "Test"
+    "Purpose"     = "GitHub-Terraform-Azure-Integration-demo"
+  }
 }
 
 resource "azurerm_virtual_network" "vnet" {
