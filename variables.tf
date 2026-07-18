@@ -11,9 +11,9 @@ variable "vnet_name_test" {
   type = string
 }
 
-variable "vnet_name_prod" {
-  type = string
-}
+# variable "vnet_name_prod" {
+#   type = string
+# }
 
 variable "subnet_name_test" {
   type = string
