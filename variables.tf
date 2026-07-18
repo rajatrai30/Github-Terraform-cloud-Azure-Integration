@@ -1,9 +1,20 @@
 variable "resource_group_name" {
-  description = "resoruce group name"
-  type        = string
+  type = string
 }
 
 variable "location" {
-  description = "resoruce group location"
-  type        = string
+  type    = string
+  default = "Central India"
+}
+
+variable "vnet_name_test" {
+  type = string
+}
+
+variable "vnet_name_prod" {
+  type = string
+}
+
+variable "subnet_name_test" {
+  type = string
 }
