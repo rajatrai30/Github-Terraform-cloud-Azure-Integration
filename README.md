@@ -122,11 +122,11 @@ Azure Resources
 
 ---
 
-<!-- ## Workspace Environment Variables
+## Workspace Environment Variables
 
-<img src="images/workspace-envs.png">
+<img src="Artifacts/tfenv.png">
 
---- -->
+---
 
 ## Self Hosted Terraform Agent
 
